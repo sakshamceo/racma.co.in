@@ -1,0 +1,24 @@
+.masthead {
+  min-height: 30rem;
+  position: relative;
+  display: table;
+  width: 100%;
+  height: auto;
+  padding-top: 0rem;
+  padding-bottom: 0rem;
+  
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  h1 {
+    font-size: 4rem;
+    margin: 0;
+    padding: 0;
+  }
+  @media (min-width: 992px) {
+    height: 100vh;
+    h1 {
+      font-size: 0.5rem;
+    }
+  }
+}
